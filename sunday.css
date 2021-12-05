@@ -1,0 +1,243 @@
+
+.right_box
+{
+   
+    display: flex;
+    float: right;
+    height: 685px;
+    width: 370px;
+    background-color: rgba(112, 111, 112, 0.116);
+    border: solid whitesmoke;
+    
+}
+.left_box
+{
+   
+    display: flex;
+    float: left;
+    height: 685px;
+    width: 1120px; 
+    background-color: white;
+    
+}
+.container
+{
+  display: flex;
+  height: 280px;
+  width: 370px;
+  align-items: center;
+  
+  background-image: url("sunset.PNG");
+  background-size: 245px;
+  background-size: cover;
+  
+
+  
+ 
+  position: absolute;
+}
+.container2
+{
+    display: block;
+    height: 100px;
+    width: 330px;
+    align-items: center;
+    margin: 4px;
+    margin-right: 4px;
+    background-image: url("moderate.PNG");
+    background-size: cover;
+    
+    border-radius: 25px;
+    position:absolute;
+    top: 300px;
+    
+     
+}
+.Weather
+{
+    display:block;
+    position: absolute;
+    top: 395px;
+    text-align: center;
+    margin-left: 50px;
+   
+}
+.rotox
+{
+    display: block;
+    height: 80px;
+    width: 330px;
+    align-items: center;
+    margin: 4px;
+    margin-right: 4px;
+    background-image: url("cloudy.PNG");
+    background-size: cover;
+   
+    border-radius: 25px;
+    position:absolute;
+    top: 480px;
+}
+.botox
+{
+    display: block;
+    height: 80px;
+    width: 330px;
+    align-items: center;
+    margin: 4px;
+    margin-right: 4px;
+    background-image: url("bright.PNG");
+    background-size: cover;
+    
+    border-radius: 25px;
+    position:absolute;
+    top: 575px;  
+}
+.leftnav
+{
+    height: 685px;
+    width: 80px;
+   background-color: pink;
+    float: left;
+    
+}
+ul{
+    list-style: none;
+    margin-right: 8px;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover
+{
+    background-color: rgb(8, 132, 248);
+    color: black;
+}
+.navigationtop
+{
+    float: left;
+    width:1222px;
+    height: 90px;
+    background-color: pink;
+   
+
+    
+}
+.navigationtop img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid rgb(211, 203, 203);
+    float:left;
+    margin-left: 2px;
+}
+.navigationtop h2
+{
+    float:left;
+    padding-left: 5px;
+}
+.navigationtop input[type=text]
+{
+    float:right;
+    padding:6px;
+    margin-right: 6px;
+   margin-top: 23px;
+   background-color: rgb(180, 173, 173);
+   border-radius: 6px;
+   list-style: none;
+   border: solid 0px;
+   
+}
+.box1
+{
+    display: flex;
+    height: 200px;
+    width: 430px;
+    align-items: center;
+    background-image: url("wp5125451-anime-aesthetic-landscapes-wallpapers.jpg");
+    background-size: cover;
+   
+    border-radius: 25px;
+    position:absolute ;
+    top: 120px;
+    left: 110px;
+}
+.box2
+{
+    display: flex;
+    height: 200px;
+    width: 330px;
+    align-items: center;
+    background-image: url("airquality.PNG");
+    background-size: 370px;
+   
+    border-radius: 25px;
+    position:absolute ;
+    top: 120px;
+    left: 770px; 
+}  
+.box3
+{
+    display: flex;
+    height: 350px;
+    width: 600px;
+    align-items: center;
+    background-image: url("howisair.PNG");
+    background-size: cover;
+    border: solid whitesmoke;
+    
+    border-radius: 25px;
+    position:absolute ;
+    top: 328px;
+    left: 110px;   
+}
+.box4
+{
+    display: flex;
+    height: 330px;
+    width: 250px;
+    align-items: center;
+    background-image: url("rainy.PNG");
+    background-size: 240px;
+    
+    border-radius: 25px;
+    position:absolute ;
+    top: 340px;
+    left: 770px; 
+}
+
+.box1 h1
+{
+    display: block;
+    position: absolute;
+    top:10px;
+    left:80px;
+    
+}
+.box1 p
+{
+position: absolute;
+left:84px;
+top:55px;
+color: black;
+}
+.box1 .don
+{
+    display: block;
+    position: absolute;
+    top:75px;
+    left:100px;
+    
+}
+.box1 .tom
+{
+position: absolute;
+left:95px;
+top:113px;
+color: black;
+}
+
+button
+{
+    padding: 10px;
+}
